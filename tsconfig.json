@@ -15,9 +15,7 @@
   ],
   "files": [
     "./src/app/app.component.ts",
-    "./src/app/forms/form-input-types/dropdown-input.ts",
-    "./src/app/forms/form-input-types/textbox-input.ts",
-    "./src/app/forms/shared/input-base.ts",
+    "./src/app/search/search.component.ts",
     "./src/main.ts"
   ],
   "atom": {
