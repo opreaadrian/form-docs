@@ -9,5 +9,18 @@
     "noImplicitAny": false,
     "outDir": "dist",
     "rootDir": "src"
+  },
+  "filesGlob": [
+    "./src/**/*.ts"
+  ],
+  "files": [
+    "./src/app/app.component.ts",
+    "./src/app/forms/form-input-types/dropdown-input.ts",
+    "./src/app/forms/form-input-types/textbox-input.ts",
+    "./src/app/forms/shared/input-base.ts",
+    "./src/main.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
   }
 }
