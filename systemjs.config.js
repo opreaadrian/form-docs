@@ -20,7 +20,23 @@
         format: 'cjs',
         defaultExtension: 'js',
         main: 'button.js'
+    },
+    '@angular2-material/input': {
+        format: 'cjs',
+        defaultExtension: 'js',
+        main: 'input.js'
+    },
+    '@angular2-material/core': {
+      format: 'cjs',
+      defaultExtension: 'js',
+      main: 'core.js'
+    },
+    '@angular2-material/card': {
+      format: 'cjs',
+      defaultExtension: 'js',
+      main: 'card.js'
     }
+
   };
   var ngPackageNames = [
     'common',
