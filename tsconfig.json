@@ -6,17 +6,22 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "removeComments": false,
-    "noImplicitAny": false,
     "outDir": "dist",
-    "rootDir": "src"
+    "rootDir": "src",
+    "noImplicitAny": false
   },
   "filesGlob": [
-    "./src/**/*.ts"
+    "./src/**/*.ts",
+    "./typings/**/*.ts"
   ],
   "files": [
     "./src/app/app.component.ts",
     "./src/app/search/search.component.ts",
-    "./src/main.ts"
+    "./src/main.ts",
+    "./typings/globals/core-js/index.d.ts",
+    "./typings/globals/jasmine/index.d.ts",
+    "./typings/globals/node/index.d.ts",
+    "./typings/index.d.ts"
   ],
   "atom": {
     "rewriteTsconfig": true
