@@ -38,6 +38,7 @@ dist
 # JS Files
 app/*.js
 app/*.map
+gulpfile.js
 
 .editorconfig
 .eslintrc.json
