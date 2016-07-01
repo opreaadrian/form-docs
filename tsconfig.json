@@ -17,6 +17,7 @@
   "files": [
     "./src/app/app.component.ts",
     "./src/app/search/search.component.ts",
+    "./src/app/search/service.component.ts",
     "./src/main.ts",
     "./typings/globals/core-js/index.d.ts",
     "./typings/globals/jasmine/index.d.ts",
