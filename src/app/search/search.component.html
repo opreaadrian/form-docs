@@ -2,7 +2,10 @@
 <md-card>
   <md-card-title>Search through available documents</md-card-title>
   <md-card-content>
-    <md-input placeholder="Contract, SRL ..."></md-input>
+    <md-input placeholder="Contract, SRL ..." [ngFormControl]=term></md-input>
+    <ul>
+      <li *ngFor="let item of items | async">{{item}}</li>
+    </ul>
     <button md-raised-button>Find</button>
   </md-card-content>
 </md-card>
