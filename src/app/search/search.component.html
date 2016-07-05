@@ -3,9 +3,12 @@
   <md-card-title>Search through available documents</md-card-title>
   <md-card-content>
     <md-input placeholder="Contract, SRL ..." [ngFormControl]=term></md-input>
-    <ul>
-      <li *ngFor="let item of items | async">{{item}}</li>
-    </ul>
-    <button md-raised-button>Find</button>
+    <button md-raised-button color="accent">Find</button>
+
+    <md-list>
+      <md-list-item *ngFor="let item of items | async">
+        <h3>{{item}}</h3>
+      </md-list-item>
+    </md-list>
   </md-card-content>
 </md-card>

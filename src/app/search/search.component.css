@@ -1,3 +1,13 @@
+md-card {
+  text-align: center;
+}
+
 md-card-content button {
   display: block;
+  margin: 0 auto;
+}
+
+md-card-content md-input {
+  width: 30%;
+  min-width: 160px;
 }
