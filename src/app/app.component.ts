@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { Search } from './search/search.component';
 
 @Component({
-  selector: 'my-app',
+  selector: 'form-doc',
   providers: [Search],
   template: '<search></search>',
   directives: [Search]
