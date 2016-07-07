@@ -1,9 +1,9 @@
-<md-toolbar color="primary">Documents</md-toolbar>
-<md-card>
+<md-toolbar color="primary" class="light-text">Documents</md-toolbar>
+<md-card class="card-container dark-text">
   <md-card-title>Search through available documents</md-card-title>
   <md-card-content>
     <md-input placeholder="Contract, SRL ..." [ngFormControl]=term></md-input>
-    <button md-raised-button color="accent">Find</button>
+    <button md-raised-button color="accent" class="light-text">Find</button>
 
     <md-list>
       <md-list-item *ngFor="let item of items | async">

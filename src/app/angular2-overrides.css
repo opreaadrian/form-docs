@@ -1,0 +1,12 @@
+/* Override angular2-material color settings */
+form-doc [color="primary"].md-primary {
+  background-color: #9575CD;
+}
+
+form-doc [color="accent"].md-accent {
+  background-color: #E91E63;
+}
+
+.md-input-infix label.md-input-placeholder.md-focused { color: #7E57C2; }
+
+.md-card .md-input-underline .md-input-ripple.md-focused { background-color: #7E57C2; }
