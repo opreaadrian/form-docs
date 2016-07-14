@@ -11,15 +11,3 @@ md-card-content md-input {
   width: 30%;
   min-width: 160px;
 }
-
-.card-container {
-  background-color: #F9FBE7;
-}
-
-.light-text {
-  color: #f0f0f0;
-}
-
-.dark-text {
-  color: #0f0f0f;
-}
