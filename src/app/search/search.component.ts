@@ -13,6 +13,7 @@ import { MD_TOOLBAR_DIRECTIVES } from '@angular2-material/toolbar';
 import { MD_CARD_DIRECTIVES } from '@angular2-material/card';
 import { MdInput } from '@angular2-material/input';
 
+import { Footer } from '../footer/footer.component';
 import { SearchService } from './service.component';
 
 @Component({
@@ -26,7 +27,8 @@ import { SearchService } from './service.component';
     MD_TOOLBAR_DIRECTIVES,
     MD_BUTTON_DIRECTIVES,
     NgForm,
-    MdInput
+    MdInput,
+    Footer
   ]
 })
 
