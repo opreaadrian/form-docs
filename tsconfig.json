@@ -16,6 +16,9 @@
   ],
   "files": [
     "./src/app/app.component.ts",
+    "./src/app/app.routes.ts",
+    "./src/app/categories/categories.component.ts",
+    "./src/app/footer/footer.component.ts",
     "./src/app/search/search.component.ts",
     "./src/app/search/service.component.ts",
     "./src/main.ts",
