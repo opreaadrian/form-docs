@@ -9,7 +9,8 @@
     '@angular':                   'node_modules/@angular',
     'angular2-in-memory-web-api': 'node_modules/angular2-in-memory-web-api',
     '@angular2-material':         'node_modules/@angular2-material',
-    'rxjs':                       'node_modules/rxjs'
+    'rxjs':                       'node_modules/rxjs',
+    '@angular/router':            'node_modules/@angular/router'
   };
   // packages tells the System loader how to load when no filename and/or no extension
   var packages = {
@@ -36,10 +37,20 @@
       defaultExtension: 'js',
       main: 'card.js'
     },
+    '@angular2-material/list': {
+      format: 'cjs',
+      defaultExtension: 'js',
+      main: 'list.js'
+    },
     '@angular2-material/toolbar': {
       format: 'cjs',
       defaultExtension: 'js',
       main: 'toolbar.js'
+    },
+    'node_modules/@angular/router': {
+      format: 'cjs',
+      defaultExtension: 'js',
+      main: 'index.js'
     }
 
   };
@@ -47,10 +58,10 @@
     'common',
     'compiler',
     'core',
+    'forms',
     'http',
     'platform-browser',
     'platform-browser-dynamic',
-    'router',
     'router-deprecated',
     'upgrade',
   ];
