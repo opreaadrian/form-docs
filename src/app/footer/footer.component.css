@@ -1,0 +1,34 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-navigation {
+  list-style-type: none;
+  width: 20%;
+  margin: 0 auto 2em;
+}
+
+.footer-navigation li {
+  display: inline-block;
+  margin: 0 1em 0 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.footer-navigation a,
+.footer-navigation li {
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFEBEE;
+  color: #EF5350;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer-navigation a:hover,
+.footer-navigation li:hover {
+  cursor: pointer;
+  color: #D32F2F;
+  border-bottom-color: #B71C1C;
+}
