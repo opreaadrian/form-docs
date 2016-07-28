@@ -1,14 +1,16 @@
 <div class="search-container">
-  <md-input placeholder="Documents..." [ngFormControl]=term></md-input>
-  <button class="fa fa-search light-text"></button>
+  <form [formGroup]="searchForm">
+    <md-input formControlName="term" placeholder="Documents..."></md-input>
+    <button class="fa fa-search light-text"></button>
+  </form>
 </div>
 <footer></footer>
 
-<!-- <md-card>
+<md-card>
   <md-card-title>Results</md-card-title>
   <md-list>
-    <md-list-item *ngFor="let item of items | async">
+    <md-list-item >
       <h3>{{item}}</h3>
     </md-list-item>
   </md-list>
-</md-card> -->
+</md-card>
