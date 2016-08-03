@@ -1,12 +1,44 @@
 /* Override angular2-material color settings */
-form-doc [color="primary"].md-primary {
-  background-color: #9575CD;
+form-doc-app [color="primary"].md-primary {
+  background-color: #F44336;
 }
 
-form-doc [color="accent"].md-accent {
+form-doc-app [color="accent"].md-accent {
   background-color: #E91E63;
 }
 
-.md-input-infix label.md-input-placeholder.md-focused { color: #7E57C2; }
+.search-container {
+  width: 30%;
+  min-width: 160px;
+  margin: 25% auto;
+}
 
-.md-card .md-input-underline .md-input-ripple.md-focused { background-color: #7E57C2; }
+.search-container .fa-search {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+}
+
+.search-container .fa-search:hover { cursor: pointer; }
+
+md-input { width: 90%; }
+md-input,
+.search-container .fa-search {
+  vertical-align: middle;
+}
+
+.md-input-infix label.md-input-placeholder,
+.search-container .fa-search { color: #EF9A9A; }
+
+.md-input-element,
+.md-input-infix label.md-input-placeholder.md-focused,
+.search-container .fa-search:focus,
+.search-container .fa-search:hover { color: #F44336; }
+
+form-doc-app .search-container .md-input-underline { border-top: 1px solid #EF9A9A; }
+form-doc-app .search-container .md-input-underline .md-input-ripple { background-color: #EF9A9A; }
+form-doc-app .md-input-underline .md-input-ripple.md-focused { background-color: #F44336; }
+
+body {
+  background-color: #FFEBEE;
+}
