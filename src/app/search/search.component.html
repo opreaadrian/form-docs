@@ -1,7 +1,9 @@
 <div class="search-container">
-  <form [formGroup]="searchForm" class="flex">
-    <md-input formControlName="searchTerm" placeholder="Documents..."></md-input>
-    <button class="fa fa-search light-text"></button>
+  <form>
+    <div [formGroup]="searchGroup" class="flex">
+      <md-input formControlName="searchTerm" placeholder="Documents..."></md-input>
+      <button class="fa fa-search light-text"></button>
+    </div>
   </form>
 </div>
 

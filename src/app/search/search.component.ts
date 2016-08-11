@@ -40,15 +40,15 @@ import { SearchService } from './service.component';
 
 export class Search {
   items: Observable<Array<string>>;
-  searchForm: FormGroup;
+  searchGroup: FormGroup;
   searchTerm = new Control('');
 
   constructor(private searchService: SearchService, formBuilder: FormBuilder) {
-    this.searchForm = formBuilder.group({
+    this.searchGroup = formBuilder.group({
         searchTerm: ['', [<any>Validators.required, <any>Validators.minLength(5)]]
     });
 
-    this.items = this.searchForm.valueChanges
+    this.items = this.searchGroup.valueChanges
                  .debounceTime(350)
                  .distinctUntilChanged()
                  .switchMap((term) => this.searchService.search(term));
