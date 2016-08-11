@@ -5,9 +5,8 @@ footer {
 }
 
 .footer-navigation {
-  list-style-type: none;
-  width: 20%;
-  margin: 0 auto 2em;
+  /*width: 20%;
+  margin: 0 auto 2em;*/
 }
 
 .footer-navigation li {
@@ -31,4 +30,10 @@ footer {
   cursor: pointer;
   color: #D32F2F;
   border-bottom-color: #B71C1C;
+}
+
+@media and (max-width: 1024px) {
+  .footer-navigation {
+    width: 60%;
+  }
 }

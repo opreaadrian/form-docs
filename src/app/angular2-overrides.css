@@ -1,4 +1,6 @@
 /* Override angular2-material color settings */
+body { background-color: #FFEBEE; }
+
 form-doc-app [color="primary"].md-primary {
   background-color: #F44336;
 }
@@ -7,10 +9,19 @@ form-doc-app [color="accent"].md-accent {
   background-color: #E91E63;
 }
 
+form-doc-app md-card {
+  background: none;
+  box-shadow: none;
+}
+
+form-doc-app md-card:hover {
+  box-shadow: none;
+}
+
 .search-container {
   width: 30%;
   min-width: 160px;
-  margin: 25% auto;
+  margin: 25% auto 2em;
 }
 
 .search-container .fa-search {
@@ -39,6 +50,17 @@ form-doc-app .search-container .md-input-underline { border-top: 1px solid #EF9A
 form-doc-app .search-container .md-input-underline .md-input-ripple { background-color: #EF9A9A; }
 form-doc-app .md-input-underline .md-input-ripple.md-focused { background-color: #F44336; }
 
-body {
-  background-color: #FFEBEE;
+.flex {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: center;
 }
